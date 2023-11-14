@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bkgr3.jpg'); /* Replace with your leaf image */
+    background-size: cover;
+    color: #4f7a28;
+    font-family: Tahoma;
+}
+
+main {
+    max-width: 600px; /* Adjust this value as needed */
+    margin: 20px auto; /* This centers the 'main' block */
+    padding: 20px;
+    text-align: left; /* Ensures content is left-aligned */
+    background-color: rgba(255, 255, 255, 0.6); /* Optional: adds a slight background to enhance readability */
+}
+
+main p, main blockquote {
+    text-align: left; /* Ensures paragraphs and blockquotes are also left-aligned */
+}
+
+/* Optional: Adjusts the text inside the blockquote to be left-aligned as well */
+blockquote {
+    text-align: left;
+}
+
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.more-info-button {
+    text-align: center; /* Center the button container */
+    margin: 20px 0; /* Spacing around the button container */
+    padding: 10px 0; /* Padding inside the button container */
+}
+
+.button {
+    display: inline-block; /* Makes the link behave like a block, but only as wide as its content */
+    padding: 10px 20px; /* Button padding */
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline from the link */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker shade for hover effect */
+}
+
+
