@@ -186,10 +186,10 @@ kbd {
 
 :root:not([data-theme=dark]), [data-theme=light] {
     --background-color: #fff;
-    --color: hsl(205, 20%, 32%);
+    --color: hsl(91, 49%, 41%); /* --color: hsl(205, 20%, 32%); */
     --h1-color: hsl(205, 30%, 15%);
-    --h2-color: #328c48;
-    --h3-color: hsl(205, 25%, 23%);
+    --h2-color: #38571a; /* --h2-color: #24333e; */
+    --h3-color: hsl(91, 51%, 32%);/* --h3-color: hsl(205, 25%, 23%); */
     --h4-color: #374956;
     --h5-color: hsl(205, 20%, 32%);
     --h6-color: #4d606d;
@@ -2585,8 +2585,8 @@ a[aria-busy=true], button[aria-busy=true], input[type=button][aria-busy=true], i
     display: inline-block; /* Changed to block to allow margin auto for centering */
     padding: 10px 20px;
     margin: 10px auto; /* Auto margins for horizontal centering */
-    max-width: 200px; /* Maximum width for the button */
-    background-color: var(--primary);
+    max-width: 300px; /* Maximum width for the button */
+    background-color: #4f7a28; /*var(--primary);*/
     color: white;
     text-align: center;
     text-decoration: none;
